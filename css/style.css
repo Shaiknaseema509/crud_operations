@@ -1,0 +1,381 @@
+ul{
+  padding: 0;
+  margin: 0;
+}
+input[type="file"] {
+  display: none;
+}
+h6{
+  margin: 0 !important;
+}
+.form-check-input[type=checkbox] {
+  border-radius: 0.25em;
+  padding: 6px;
+  margin: 2px 4px;
+}
+body{
+  background-color: #ffffff;
+}
+.header {
+
+  background-color: #352b60;
+  text-align: center;
+  padding: 20px;
+ }
+ .welcome{
+  color:black;
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+ }
+ .welcome span{
+  color: #de1a62;
+ 
+ }
+ 
+ 
+ .headertext{
+  color: white;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+ }
+ 
+ .col-form-label{
+  font-size: 1dvw;
+ }
+
+.maindiv{
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+  
+ }
+ .excel-box {
+   display: flex;
+   align-items: center;
+   padding: 30px 40px;
+   background-color: #ffffff;
+   border-radius: 10px;
+
+   box-shadow: 0px 0px 75px 0px rgba(0, 0, 0, 0.3);
+ }
+ .container square-box{
+  position: relative;
+ }
+ .adminicon{
+
+    display: flex;
+      position: absolute;
+      margin-top: -50px;
+}
+    
+.excelitems{
+    margin-top: 60px;
+      display: flex;
+      justify-content: center;
+}
+
+ .excelbutton{
+  padding: 5px;
+  background-color: #1e9a78;
+  margin: 6px;
+  border-radius: 5px;
+ 
+}
+    .custom-file-upload {
+      display: inline-block;
+      padding: 6px 76px;
+      color: #fff;
+      cursor: pointer;}
+
+.excelbutton .btn{
+  color:#f0ffff !important;
+}
+.excelbutton span{
+color: #6bc5ab;
+}
+.view-row{
+  display:flex;
+  align-items: center;
+  
+ 
+  border-radius: 10px
+}
+
+
+
+/*patient deatails table  screen styles*/
+.btn-view,td{
+  color:#e01860;
+  text-decoration: none;
+}
+.ecdheader{
+ background-color: #e01860;
+ color: white;
+ border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 15px;    
+}
+tbody{
+ text-align: center;
+}
+thead{
+ text-align: center;
+ border-bottom: none;
+
+}
+.patientdata thead th{
+     background-color:#c7c7c7;
+     border: none;
+}
+.btns{
+  padding: 10px;
+}
+
+.openBtn, td{
+  color: #42ac40;
+  text-decoration: none;
+}
+.btn-call,td{
+  color:#42ac40;
+  text-decoration: none;
+}
+.landmark .col-form-label {
+  font-size: 1dvw;
+  padding-right: 15px;
+}
+.riskfactorremarks .col-form-label{
+      font-size: 1dvw;
+      padding-right: 43px;
+}
+.grey-bg{
+  background-color: #f6f6f6;
+  padding: 15px 0px;
+}
+.textarea{
+  width: 100%;
+}
+.popuptitle{
+    text-align: left;
+    background-color: #e01860;
+    color: white;
+    padding: 11px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+} 
+.odd-row {
+     background-color: #ececec;
+     padding: 7px;
+     border:1px solid #cccccc;
+     border-top: none;
+    }
+.even-row {
+     background-color: #f6f6f6;
+     padding: 7px;
+     border:1px solid #cccccc;
+     border-top: none;
+   }
+.modal-content{
+     /* width: 120%; */
+}
+ .modal-body{
+     background-color: #e1e1e1;
+     border-radius: 10px;
+ }
+ .modal-dialog {
+  width: 100%;
+  }
+  .btn-secondary{
+color:white;
+background-color: #e01860;
+  }
+.patientdata{
+     box-shadow: 0px 11px 0px -4px rgba(236,236,236,0.37);
+     -webkit-box-shadow: 0px 11px 0px -4px rgba(236,236,236,0.37);
+     -moz-box-shadow: 0px 11px 0px -4px rgba(236,236,236,0.37);
+  }
+  .col-5{
+    font-weight: bold;
+    text-align: left;
+  }
+  .col-7{
+    text-align: left;
+  }
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    border-color: 1px solid black;
+    
+}
+.page-item a{
+  color:white;
+  background-color: #e01860;
+}
+
+/*call fields screen styles */
+
+.container-fluid{
+  padding: 16px 28%;
+  background-color: #ffffff;
+ 
+}
+.container-callfields{
+  /* padding: 10px 10%; */
+  background-color: #ffffff;
+  -webkit-box-shadow: -1px 9px 7px -4px rgba(149, 155, 165, 0.68);
+    -moz-box-shadow: -1px 9px 7px -4px rgba(149, 155, 165, 0.68);
+    box-shadow: -1px 9px 7px -4px rgba(149, 155, 165, 0.68);
+ 
+}
+
+.calldetailsheader{
+  background-color:#e01860;
+  color:#feffff;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   padding: 10px 1%;
+   
+}
+.calldetailsheader h6{
+  font-size: 0.9rem;
+}
+/* .row{
+  background-color: #f6f6f6;
+ 
+} */
+
+
+.col-6{
+ background-color: #e3dfde;
+ border: 2px solid #e3dfde;
+
+}
+.container-callfields{
+  font-family: sans-serif;
+  /* padding: 5px 10%; */
+  font-size: 18px;
+ 
+  
+}
+.age{
+  width:60%;
+  display: flex;
+    align-items: baseline;
+}
+.table{
+  font-size: 0.8rem;
+  
+}
+.dailnumber{
+  background-color: #3da939;
+    border: 0px;
+    color: white;
+    font-size: 14px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1px 8px;
+}
+#callernumber{
+  display: flex !important;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.endcommentbox{
+  width: 35%;
+  height: 100px;
+  color: #e01860;
+
+}
+
+
+ .btn-1 {
+  background-color:#e01860;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+ } 
+ .btn-2{
+  background-color:#3da939;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+ }  
+
+
+
+.form-select {
+  font-size: 0.8rem;
+}
+
+
+.form-control{
+  width:100%;
+  font-size: 0.8rem;
+}
+
+.comment-box {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color:#e01860;
+  padding-top: 20px;
+  font-size:14px;
+}
+.trim1 ul li{
+  float: left;
+  width: 50%;
+  font-size: 1rem;
+  padding: 6px;
+}
+.trim2 ul li{
+  float: left;
+  width: 50%;
+  font-size: 1rem;
+  padding: 6px;
+}
+.trim3 ul li{
+  float: left;
+  width: 50%;
+  font-size: 1rem;
+  padding: 6px;
+}
+
+.btn-success{
+  background-color: #2dca27;
+  border-color: #4fdf42;
+}
+
+.btn-danger {
+  background-color: #e01860;
+  border-color: #b90b48;
+} 
+
+
+.custm-btn{
+  margin: 0px 2px 0px 2px;
+}
+
+.pagination li{
+  margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  
